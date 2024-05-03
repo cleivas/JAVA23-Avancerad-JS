@@ -1,0 +1,18 @@
+.done{
+    text-decoration: line-through;
+}
+
+.taskItem{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    width: fit-content;
+    padding: 0 1rem;
+    margin: .25rem;
+    cursor: pointer;
+}
+
+.taskItem button{
+    height: 1.5rem;
+    margin-left: .25rem;
+}
